@@ -51,7 +51,7 @@ psql -U postgres -d hospital -f hospital.sql
 
 ## 🌍 Proyecto desplegado
 
-[https://deee-81-184-33-23.ngrok-free.app/hospital/ingresar.php](https://deee-81-184-33-23.ngrok-free.app/hospital/ingresar.php)
+[https://deee-81-184-33-23.ngrok-free.app/hospital/ingresar.php](https://deee-81-184-33-23.ngrok-free.app/hospital/)
 
 ---
 
@@ -59,4 +59,4 @@ psql -U postgres -d hospital -f hospital.sql
 
 David Ruiz  
 Proyecto realizado como parte del módulo de **Bases de Dades**  
-CFGS ASIX - 2025
+CFGS DAW - 2025
