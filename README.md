@@ -1,5 +1,3 @@
-# miniweb-hospital
-
 # 🏥 MiniWeb Hospital
 
 Este proyecto es una miniaplicación web de gestión hospitalaria desarrollada con **PHP**, **PostgreSQL** y **Bootstrap**.
@@ -10,12 +8,13 @@ Permite:
 - Revisar y actualizar el estado de los pacientes.
 - Gestionar el stock de vacunas.
 - Visualizar historiales de vacunación.
-- Probar triggers y funciones PL/pgSQL (como `revisapacient`, `ficastock`, `hospitalproper`, etc).
+- Probar triggers y funciones PL/pgSQL (`revisapacient`, `ficastock`, `hospitalproper`, etc).
 
 ---
 
 ## 📁 Estructura del proyecto
 
+```bash
 hospital/
 ├── cartilla.php
 ├── conexion.php
@@ -23,8 +22,8 @@ hospital/
 ├── index.php
 ├── ingresar.php
 ├── img/
-└── hospital.sql <-- Base de datos exportada
-
+└── hospital.sql  <-- Base de datos exportada
+```
 
 ---
 
@@ -32,29 +31,32 @@ hospital/
 
 El archivo `hospital.sql` contiene toda la estructura de tablas, funciones, triggers y datos iniciales del proyecto.
 
-### ▶️ Para importar:
+### ▶️ Importar la base de datos:
 
 ```bash
 psql -U postgres -d hospital -f hospital.sql
+```
 
-⚙️ Tecnologías utilizadas
-PostgreSQL (con funciones PL/pgSQL)
+---
 
-PHP
+## ⚙️ Tecnologías utilizadas
 
-HTML5 + CSS3 (Bootstrap 5)
+- PostgreSQL (con funciones PL/pgSQL)
+- PHP
+- HTML5 + CSS3 (Bootstrap 5)
+- FileZilla (para subir al servidor)
+- Git y GitHub (control de versiones)
 
-FileZilla (para subir al servidor)
+---
 
-Git y GitHub (control de versiones)
+## 🌍 Proyecto desplegado
 
-🧪 Cómo probar
-1. Clona el proyecto o súbelo a un servidor con Apache:
+[https://deee-81-184-33-23.ngrok-free.app/hospital/ingresar.php](https://deee-81-184-33-23.ngrok-free.app/hospital/ingresar.php)
 
-   git clone https://github.com/druizZz/miniweb-hospital.git
+---
 
-2. Importa la base de datos como se explicó arriba.
+## 👤 Autor
 
-3. Abre index.php desde el navegador (o vía Ngrok para compartirlo online).
-
-4. Empieza a interactuar: ingresar pacientes, cambiar estados, vacunar, etc.
+David Ruiz  
+Proyecto realizado como parte del módulo de **Bases de Dades**  
+CFGS ASIX - 2025
